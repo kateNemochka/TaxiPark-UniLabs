@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Graphics.MainWindow">
+  <grid id="27dc6" binding="panel" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:20px:noGrow"/>
+    <rowspec value="top:10dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:19px:noGrow"/>
+    <rowspec value="top:7dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:200px:noGrow"/>
+    <colspec value="center:102px:noGrow"/>
+    <colspec value="left:6dlu:noGrow"/>
+    <colspec value="fill:85px:noGrow"/>
+    <colspec value="left:9dlu:noGrow"/>
+    <colspec value="fill:51px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="left:31dlu:noGrow"/>
+    <colspec value="fill:83px:noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="589" height="595"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="etched">
+      <font/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="1d3cf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="5" left="5" bottom="5" right="5"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <horizontalAlignment value="0"/>
+          <text value="Taxi Park"/>
+        </properties>
+      </component>
+      <component id="5e7c6" class="javax.swing.JButton" binding="addRideButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <enabled value="true"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Додати поїздку"/>
+        </properties>
+      </component>
+      <component id="8a40a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <text value="Стандарт"/>
+        </properties>
+      </component>
+      <component id="5809e" class="javax.swing.JLabel" binding="quantityStandart">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="477e5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="Комфорт"/>
+        </properties>
+      </component>
+      <component id="f1093" class="javax.swing.JLabel" binding="quantityComfort">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="884ee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="Електромобіль"/>
+        </properties>
+      </component>
+      <component id="1d7e3" class="javax.swing.JLabel" binding="quantityGreen">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="c81cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Автоматичне додавання поїздок"/>
+        </properties>
+      </component>
+      <component id="c7c95" class="javax.swing.JRadioButton" binding="autoRideOn">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <horizontalAlignment value="2"/>
+          <text value="On"/>
+        </properties>
+      </component>
+      <component id="6c07c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <text value="Всього поїздок"/>
+        </properties>
+      </component>
+      <component id="251ab" class="javax.swing.JLabel" binding="ridesCountLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="96814" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Прибуток"/>
+        </properties>
+      </component>
+      <component id="8ab11" class="javax.swing.JLabel" binding="profitLabel">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="-1.0"/>
+        </properties>
+      </component>
+      <component id="b4c72" class="javax.swing.JLabel" binding="statLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1306"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="14"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <text value="Статистика"/>
+        </properties>
+      </component>
+      <component id="74805" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="12"/>
+          <horizontalAlignment value="0"/>
+          <text value="Кількість автомобілів"/>
+        </properties>
+      </component>
+      <component id="b58d5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="10" bottom="0" right="0" defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <horizontalAlignment value="2"/>
+          <text value="Усі"/>
+        </properties>
+      </component>
+      <component id="a62ac" class="javax.swing.JLabel" binding="quantityAll">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="d2d1f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="12"/>
+          <horizontalAlignment value="0"/>
+          <text value="Тарифи"/>
+        </properties>
+      </component>
+      <component id="4502" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Стандарт"/>
+        </properties>
+      </component>
+      <component id="b9069" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Комфорт"/>
+        </properties>
+      </component>
+      <component id="e164c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Еко"/>
+        </properties>
+      </component>
+      <component id="a83f3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Доплата вночі"/>
+        </properties>
+      </component>
+      <component id="12915" class="javax.swing.JLabel" binding="stFareLabel">
+        <constraints>
+          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="54d0b" class="javax.swing.JLabel" binding="comfFareLabel">
+        <constraints>
+          <grid row="14" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="4a232" class="javax.swing.JLabel" binding="ecoFareLabel">
+        <constraints>
+          <grid row="16" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="ff337" class="javax.swing.JLabel" binding="nightFareLabel">
+        <constraints>
+          <grid row="18" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="-1"/>
+        </properties>
+      </component>
+      <component id="a23e7" class="javax.swing.JButton" binding="addTaxiButton">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <text value="Додати нове таксі"/>
+        </properties>
+      </component>
+      <component id="33208" class="javax.swing.JButton" binding="modifyTariffsButton">
+        <constraints>
+          <grid row="20" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <text value="Змінити тарифи"/>
+        </properties>
+      </component>
+      <tabbedpane id="35c0a" binding="tabbedPane" default-binding="true">
+        <constraints>
+          <grid row="26" column="0" row-span="1" col-span="8" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="11"/>
+          <tabLayoutPolicy value="1"/>
+          <tabPlacement value="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="c53bf" binding="carListPanel">
+            <constraints>
+              <tabbedpane title="Список Автомобілів"/>
+            </constraints>
+            <properties/>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="3bef6" class="javax.swing.JTable" binding="taxiTable">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="d869e" binding="updatePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Log"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9769f" class="javax.swing.JLabel" binding="updateLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="true"/>
+                  <font name="Source Code Pro" size="10"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="11"/>
+                  <text value=" "/>
+                  <verticalAlignment value="1"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="92125" class="javax.swing.JButton" binding="removeTaxiButton">
+        <constraints>
+          <grid row="22" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <text value="Видалити таксі"/>
+        </properties>
+      </component>
+      <component id="5121e" class="javax.swing.JButton" binding="generateTaxiButton">
+        <constraints>
+          <grid row="22" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <text value="Згенерувати випадкове таксі"/>
+        </properties>
+      </component>
+      <component id="f6ada" class="javax.swing.JButton" binding="taxiParkModelButton">
+        <constraints>
+          <grid row="24" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <text value="Модель таксопарку"/>
+        </properties>
+      </component>
+      <component id="8aac3" class="javax.swing.JRadioButton" binding="autoRideOff">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <selected value="true"/>
+          <text value="Off"/>
+        </properties>
+      </component>
+      <component id="3ecc0" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <text value="Update"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
