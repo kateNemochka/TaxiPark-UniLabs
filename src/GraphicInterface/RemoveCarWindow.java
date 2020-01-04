@@ -1,4 +1,4 @@
-package Graphics;
+package GraphicInterface;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import static Graphics.ConstantsClass.taxiPark;
+import static GraphicInterface.ConstantsClass.taxiPark;
 
 public class RemoveCarWindow extends JDialog {
     private JPanel contentPane;

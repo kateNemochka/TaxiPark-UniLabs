@@ -1,4 +1,4 @@
-package Graphics;
+package GraphicInterface;
 
 
 import javax.swing.*;
@@ -6,7 +6,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 
 import TaxiParkObjects.TaxiPark;
-import static Graphics.ConstantsClass.*;
+import static GraphicInterface.ConstantsClass.*;
 
 public class Menu extends JMenuBar {
     JMenu menu;

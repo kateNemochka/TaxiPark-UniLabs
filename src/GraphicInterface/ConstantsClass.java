@@ -1,4 +1,4 @@
-package Graphics;
+package GraphicInterface;
 
 import TaxiParkObjects.Tariffs;
 import TaxiParkObjects.TaxiPark;

@@ -1,10 +1,10 @@
-package Graphics;
+package GraphicInterface;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-import static Graphics.ConstantsClass.*;
+import static GraphicInterface.ConstantsClass.*;
 
 public class AddRideWindow extends JDialog {
     private JPanel contentPane;

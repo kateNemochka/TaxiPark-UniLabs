@@ -1,11 +1,11 @@
-package Graphics;
+package GraphicInterface;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-import static Graphics.ConstantsClass.tariff;
-import static Graphics.ConstantsClass.taxiPark;
+import static GraphicInterface.ConstantsClass.tariff;
+import static GraphicInterface.ConstantsClass.taxiPark;
 
 public class TariffWindow extends JDialog {
     private JPanel contentPane;

@@ -1,10 +1,10 @@
-package Graphics;
+package GraphicInterface;
 
 import javax.swing.*;
 import java.io.*;
 
 import TaxiParkObjects.TaxiPark;
-import static Graphics.ConstantsClass.*;
+import static GraphicInterface.ConstantsClass.*;
 
 
 public class DataStorage {

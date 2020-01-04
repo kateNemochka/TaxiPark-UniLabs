@@ -1,7 +1,6 @@
-package Graphics;
+package GraphicInterface;
 
 import TaxiParkObjects.Taxi;
-import Graphics.Menu;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
